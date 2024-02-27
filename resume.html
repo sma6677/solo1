@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - My Personal Website</title>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="resources/style.css">
 </head>
 <body>
@@ -26,19 +27,12 @@
 </header>
 <aside>
     <div class="sidebar">
-
         <div class="portlet" style="text-align: center;">
-
             <h3>Calendar</h3>
-
             <iframe src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="300" height="200" frameborder="0" scrolling="no"></iframe>
         </div>
-
-
         <div class="portlet" style="text-align: center;">
-
             <h3>Contact Form</h3>
-
             <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xdoqzzpq" method="post">
                 <fieldset id="fs-frm-inputs">
                     <div class="form-group">
@@ -58,6 +52,31 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>
+        <div class="portlet">
+            <h3>Jokes</h3>
+            <hr>
+            <div id="dadJokes"></div>
+        </div>
+        <script>
+            const dadJokes = document.getElementById('dadJokes');
+            const apiUrl = 'https://icanhazdadjoke.com/';
+
+            fetch(apiUrl, {
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    const joke = data.joke;
+                    const p = document.createElement('p');
+                    p.textContent = joke;
+                    dadJokes.appendChild(p);
+                })
+                .catch(error => {
+                    console.log('Error fetching dad joke:', error);
+                });
+        </script>
     </div>
 </aside>
 
