@@ -1,23 +1,23 @@
 [
   {
-    "title": "Traffic Violation App",
+    "title": "Hub",
     "date": "Developed Fall 2022",
     "description": "Created for a software systems course, this Java app demonstrates the development process.",
     "repoLink": "https://github.com/CaseySharpe/IST412TrafficApp",
-    "mediaLink": "resources/images/trafficApp.png"
+    "mediaLink": "resources/Hub.jpeg"
   },
   {
-    "title": "Color Chatbot",
+    "title": "Old Main",
     "date": "Developed Spring 2022",
     "description": "Developed in an Object-Oriented programming and Java app course, the ColorBot App enables users to interact with a chatbot that identifies colors.",
     "repoLink": "https://github.com/CaseySharpe/261ChatbotProject",
-    "mediaLink": "resources/images/colorBot.png"
+    "mediaLink": "resources/Main.jpg"
   },
   {
-    "title": "Color Chatbot",
+    "title": "Stadium",
     "date": "Developed Spring 2022",
     "description": "Developed in an Object-Oriented programming and Java app course, the ColorBot App enables users to interact with a chatbot that identifies colors.",
     "repoLink": "https://github.com/CaseySharpe/261ChatbotProject",
-    "mediaLink": "resources/images/colorBot.png"
+    "mediaLink": "resources/Stadium.jpg"
   }
 ]

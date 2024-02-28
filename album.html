@@ -9,9 +9,10 @@
 </head>
 <body>
 <header>
-    <!-- Navbar -->
+
     <nav>
         <ul>
+            <li><img src="resources/Logo.png" alt="Logo" class="navbar-logo"></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="mymajors.html">My Majors</a></li>
@@ -96,7 +97,8 @@
                         const cell2 = row.insertCell(1);
                         const cell3 = row.insertCell(2);
 
-                        cell1.innerHTML = `<img src="${item.mediaLink}" alt="Project Image">`;
+                        cell1.innerHTML = `<img src="${item.mediaLink}" alt="Project Image" style="width: 200px; height: 150px;">`;
+
                         cell2.innerHTML = `<h3>${item.title}</h3><p>${item.date}</p><br><p>${item.description}</p>`;
                         cell3.innerHTML = `<button type="button" onclick="window.open('${item.repoLink}', '_blank')">View in Git</button>`;
                     });
@@ -105,6 +107,7 @@
                     console.log('Error fetching JSON data:', error);
                 });
         </script>
+
     </section>
 </main>
 <footer>
