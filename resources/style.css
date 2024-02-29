@@ -64,3 +64,13 @@ footer {
     margin-left: 10px;
     margin-top: 8px;
 }
+intro {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    font-size: 50px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+    max-width: 600px;
+}
