@@ -100,7 +100,7 @@
                         cell1.innerHTML = `<img src="${item.mediaLink}" alt="Project Image" style="width: 200px; height: 150px;">`;
 
                         cell2.innerHTML = `<h3>${item.title}</h3><p>${item.date}</p><br><p>${item.description}</p>`;
-                        cell3.innerHTML = `<button type="button" onclick="window.open('${item.repoLink}', '_blank')">View in Git</button>`;
+                        cell3.innerHTML = `<button type="button" onclick="window.open('${item.repoLink}', '_blank')">More Information</button>`;
                     });
                 })
                 .catch(error => {

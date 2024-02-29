@@ -1,23 +1,23 @@
 [
   {
     "title": "Hub",
-    "date": "Developed Fall 2022",
-    "description": "Created for a software systems course, this Java app demonstrates the development process.",
-    "repoLink": "https://github.com/CaseySharpe/IST412TrafficApp",
+    "date": "Developed 1953",
+    "description": "The Hetzel Union Building (HUB) was originally constructed in 1953 and opened to the public in 1955. It has three floors plus a basement and is constructed of steel, brick, concrete, and local stone.",
+    "repoLink": "https://digital.libraries.psu.edu/digital/collection/psuimages/id/384/#:~:text=The%20Hetzel%20Union%20Building%20(HUB,%2C%20concrete%2C%20and%20local%20stone.",
     "mediaLink": "resources/Hub.jpeg"
   },
   {
     "title": "Old Main",
-    "date": "Developed Spring 2022",
-    "description": "Developed in an Object-Oriented programming and Java app course, the ColorBot App enables users to interact with a chatbot that identifies colors.",
-    "repoLink": "https://github.com/CaseySharpe/261ChatbotProject",
+    "date": "Developed 1930",
+    "description": "Old Main (originally called \"Main Building\") is The Pennsylvania State University's first building of major significance. First completed in 1867, the current incarnation of the building was completed in 1930.",
+    "repoLink": "https://www.psu.edu/news/campus-life/story/old-main-beginnings-penn-state/",
     "mediaLink": "resources/Main.jpg"
   },
   {
     "title": "Stadium",
-    "date": "Developed Spring 2022",
-    "description": "Developed in an Object-Oriented programming and Java app course, the ColorBot App enables users to interact with a chatbot that identifies colors.",
-    "repoLink": "https://github.com/CaseySharpe/261ChatbotProject",
+    "date": "Developed 1960",
+    "description": "Beaver Stadium is an outdoor college football stadium on the campus of Pennsylvania State University in Penn State University Park. It has been home to the Penn State Nittany Lions of the Big Ten Conference since 1960, though some parts of the stadium date back to 1909.",
+    "repoLink": "https://sites.psu.edu/historyofoldmain/?page_id=27",
     "mediaLink": "resources/Stadium.jpg"
   }
 ]
